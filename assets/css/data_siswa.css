@@ -1,0 +1,50 @@
+body {
+    background-image: url('aesthetic.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Verdana;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#data{
+background-color: rgba(253, 0, 0, 0.551);
+color: rgb(249, 255, 61);
+margin: 30px auto;
+width:fit-content;
+border-radius: 30px 30px 30px 30px;
+box-shadow: 10px 5px 10px 10px rgba(255, 85, 85, 0.45);
+}
+
+section{
+    margin : 20px;
+}
+section table{
+    font-size: small;
+    color: rgb(249, 255, 61);
+    font-weight: bold;
+}
+section table td {
+    padding-top: 10px;
+}
+
+h3{
+    padding-top: 20px;
+}
+
+a:hover{
+    background-color: beige;
+    display: block;
+    text-decoration: none;
+    color: crimson;
+}
+
+marquee{
+    direction: scroll;
+    color:rgba(255, 242, 0, 0.804);
+}
+
+.clear{
+    clear: both;
+   }

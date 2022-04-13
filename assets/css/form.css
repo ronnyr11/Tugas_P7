@@ -1,0 +1,42 @@
+body {
+    background-image: url('Schools.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Verdana;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#get{
+background-color: rgba(230, 240, 243, 0.551);
+color: rgb(255, 21, 21);
+margin: 30px auto;
+width:fit-content;
+border-radius: 30px 30px 30px 30px;
+box-shadow: 10px 5px 10px 10px rgba(108, 107, 107, 0.52);
+}
+
+section{
+    margin : 20px;
+}
+section table{
+    font-size: small;
+    color: rgb(1, 2, 3);
+}
+section table td {
+    padding-top: 10px;
+}
+
+h3{
+    padding-top: 20px;
+}
+
+marquee{
+    direction: scroll;
+    color:rgba(236, 9, 9, 0.771);
+}
+
+.clear{
+    clear: both;
+   }

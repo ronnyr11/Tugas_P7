@@ -1,21 +1,20 @@
 <html>
     <head>
         <title>DATA SISWA</title>
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/css/data_siswa.css">
     </head>
 
     <body>
         <center>
+        <marquee scrollamount="15"><h4>TERIMA KASIH !!! DATA ANDA AKAN KAMI PROSES :)</h4></marquee>
+            <div id="data">
+                <header>
+                <h3>DATA SISWA</h3>
+                <hr>
+                </header>
+            
+            <section>
             <table>
-                <tr>
-                    <th colspan="3">DATA SISWA</th>
-                </tr>
-
-                <tr>
-                    <td colspan="3">
-                        <hr>
-                    </td>
-                </tr>
-
                 <tr>
                     <th>NAMA SISWA</th>
                     <th>:</th>
@@ -53,12 +52,6 @@
                 </tr>
 
                 <tr>
-                    <th>NAMA SISWA</th>
-                    <th>:</th>
-                    <td><?= $Nama; ?></td>
-                </tr>
-
-                <tr>
                     <th>JENIS KELAMIN</th>
                     <th>:</th>
                     <td><?= $Jen_kel; ?></td>
@@ -72,10 +65,12 @@
 
                 <tr>
                 <td colspan="3" align="center">
-                        <a href="<?= base_url('form-data-mahasiswa');?>">Kembali</a>
+                        <a href="<?= base_url('Mahasiswa');?>"><h4>BACK</h4></a>
                     </td>
                 </tr>
             </table>
+            </section>
+            </div class="clear">
         </center>
     </body>
-</html> 
+</html>
